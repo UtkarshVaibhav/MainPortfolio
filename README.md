@@ -1,3 +1,3 @@
 # Portfolio
 
-#### Portfolio Link: https://aadityaneve.github.io/Portfolio
+#### Portfolio Link: https://github.com/Rajan1397/Portfolio
