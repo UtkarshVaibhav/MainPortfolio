@@ -1,8 +1,8 @@
-import React from 'react';
-import { Toggle } from './Toggle';
-import { NavBarDiv, NavItems, NavItem, Logo } from './Styles';
-import { Link } from 'react-scroll';
-import { animateScroll as scroll } from 'react-scroll';
+import React from "react";
+import { Toggle } from "./Toggle";
+import { NavBarDiv, NavItems, NavItem, Logo } from "./Styles";
+import { Link } from "react-scroll";
+import { animateScroll as scroll } from "react-scroll";
 
 // import useMediaQuery from "react-use-media-query-hook";
 // import { slide as Menu } from 'react-burger-menu'
@@ -10,11 +10,11 @@ import { animateScroll as scroll } from 'react-scroll';
 // import { red } from "@material-ui/core/colors";
 
 const menus = [
-    { id: 0, name: 'Home', css: 'home' },
-    { id: 1, name: 'About', css: 'about' },
-    { id: 2, name: 'Skills', css: 'skills' },
-    { id: 3, name: 'Projects', css: 'projects' },
-    { id: 4, name: 'Contact', css: 'contact' },
+  { id: 0, name: "Home", css: "home" },
+  { id: 1, name: "About", css: "about" },
+  { id: 2, name: "Skills", css: "skills" },
+  { id: 3, name: "Projects", css: "projects" },
+  { id: 4, name: "Contact", css: "contact" },
 ];
 // var styles = {
 //   bmBurgerButton: {
@@ -63,47 +63,47 @@ const menus = [
 // }
 
 function Navbar({ themeToggler }) {
-    // const isMobile = useMediaQuery("(max-width: 400px)");
-    // const isTablet = useMediaQuery("(min-width: 401px) and (max-width: 875px)");
-    // const isDesktop = useMediaQuery("(min-width: 876px) and (max-width: 1024px)");
-    // const isLargeDesktop = useMediaQuery("(min-width: 1025px)");
-    // const [open, setOpen] = useState(false);
-    // useEffect(() => {
-    //   if ((isDesktop || isLargeDesktop) && open) {
-    //     setOpen(false, isDesktop);
-    //   }
-    //   // eslint-disable-next-line
-    // }, [isLargeDesktop, isDesktop]);
-    // const [opened,setOpened] = useState(false);
-    // const isOpened = ()=>{
-    //   setOpened(!opened)
-    //   console.log(opened)
-    // }
-    return (
-        <NavBarDiv>
-            <Logo onClick={() => scroll.scrollToTop()}>
-                <span class='grey-color'> &lt;</span>
-                <span class='logo-name'>Aditya Neve</span>
-                <span class='grey-color'>/&gt;</span>
-            </Logo>
+  // const isMobile = useMediaQuery("(max-width: 400px)");
+  // const isTablet = useMediaQuery("(min-width: 401px) and (max-width: 875px)");
+  // const isDesktop = useMediaQuery("(min-width: 876px) and (max-width: 1024px)");
+  // const isLargeDesktop = useMediaQuery("(min-width: 1025px)");
+  // const [open, setOpen] = useState(false);
+  // useEffect(() => {
+  //   if ((isDesktop || isLargeDesktop) && open) {
+  //     setOpen(false, isDesktop);
+  //   }
+  //   // eslint-disable-next-line
+  // }, [isLargeDesktop, isDesktop]);
+  // const [opened,setOpened] = useState(false);
+  // const isOpened = ()=>{
+  //   setOpened(!opened)
+  //   console.log(opened)
+  // }
+  return (
+    <NavBarDiv>
+      <Logo onClick={() => scroll.scrollToTop()}>
+        <span class="grey-color"> &lt;</span>
+        <span class="logo-name">Rajan Kumar</span>
+        <span class="grey-color">/&gt;</span>
+      </Logo>
 
-            <NavItems>
-                {menus.map((item) => (
-                    <Link
-                        key={item.id}
-                        activeClass='active'
-                        to={item.css}
-                        spy={true}
-                        smooth={true}
-                        duration={500}
-                    >
-                        <NavItem key={item.id}>{item.name}</NavItem>
-                    </Link>
-                ))}
-            </NavItems>
-            <Toggle themeToggler={themeToggler} />
-        </NavBarDiv>
-    );
+      <NavItems>
+        {menus.map((item) => (
+          <Link
+            key={item.id}
+            activeClass="active"
+            to={item.css}
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
+            <NavItem key={item.id}>{item.name}</NavItem>
+          </Link>
+        ))}
+      </NavItems>
+      <Toggle themeToggler={themeToggler} />
+    </NavBarDiv>
+  );
 }
 
 export default Navbar;

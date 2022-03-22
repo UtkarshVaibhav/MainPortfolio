@@ -29,11 +29,6 @@ const socialMediaLinks = [
     link: "https://twitter.com/1397Rajan",
     icon: <FaTwitter />,
   },
-  /* {
-        id: 3,
-        link: 'https://leetcode.com/aadityaneve',
-        icon: <SiLeetcode />,
-    }, */
 ];
 const About = () => {
   return (

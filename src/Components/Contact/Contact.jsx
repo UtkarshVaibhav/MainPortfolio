@@ -70,20 +70,6 @@ const footerData = [
     link: "https://medium.com/@rajnkumar.1397",
     icon: <FaMedium style={{ color: "grey" }} className="commonIconsFooter" />,
   },
-  /* {
-        id: 6,
-        title: 'HackerRank',
-        display: 'HackerRank',
-        link: 'https://hackerrank.com/aadityaneve',
-        icon: <FaHackerrank className='commonIconsFooter' />,
-    },
-    {
-        id: 7,
-        title: 'LeetCode',
-        display: 'LeetCode',
-        link: 'https://leetcode.com/aadityaneve',
-        icon: <SiLeetcode className='commonIconsFooter' />,
-    }, */
 ];
 
 const Contact = () => {
