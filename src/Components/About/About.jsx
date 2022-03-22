@@ -44,10 +44,10 @@ const About = () => {
           <H1>About Me</H1>
           <AboutInfo>
             <AboutInfoP>
-              A dedicated Full Stack Web developer with a specialized skill set
-              that enables me to build robust web applications. I am adept in
-              both front-end and back-end and have an eye for performance and
-              accuracy.
+              Rajan Kumar, a dedicated Full Stack Web developer based in Delhi,
+              with a specialized skill set that enables me to build robust web
+              applications. I am adept in both front-end and back-end and have
+              an eye for performance and accuracy.
             </AboutInfoP>
             <AboutInfoP>
               I am adaptable, proficient in remote collaboration, and committed
