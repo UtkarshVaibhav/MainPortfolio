@@ -23,32 +23,12 @@ const Projects = () => {
       id: 1,
       project_name: "Apollo247 Clone",
       image:
-        "https://github.com/Rajan1397/Portfolio/blob/master/public/ProjectImages/apollo247.png?raw=true",
+        "https://github.com/UtkarshVaibhav/Travelix-clone/raw/main/images/index.PNG",
       project_desc:
-        "Apollo247 is a complete healthcare site. It provides all medical facilites such as book an appointment with the doctor, book lab test, order medicines, and reading articles and blogs related to health and fitness",
-      deploy_link: "https://apolloclone.netlify.app/",
-      repo_link: "https://github.com/Rajan1397/Apollo_clone",
+        "Compare airline flight tickets flying to your favorite destinations around the world. Book the cheapest flight.now and enjoy great airfare deals. Home, Flights, Hotels, Car Rental, Taxi, Tour, Cruises, shop, Blog, Discover The World For Less. Save up to 60% on hotels and flights worldwide. For Offline Best Available Fare Whats App Below Scan. CLICK HERE Popular Destinations Need travel inspiration? Check out our most popular destinations. Chennai. Mumbai. Delhi. Hyderabad. Dubai. Sharjah. Abu Dhabi.",
+      deploy_link: "",
+      repo_link: "https://github.com/UtkarshVaibhav/Travelix-Clone",
       tech_stack: [<FaHtml5 />, <FaCss3 />, <FaJs />],
-    },
-
-    {
-      id: 4,
-      project_name: "Movie-App",
-      image:
-        "https://github.com/aadityaneve/Portfolio/blob/master/public/ProjectImages/movie-app.png?raw=true",
-      project_desc:
-        "A Movie platform that allows users to search and watch trailers of a wide variety of movies. This is a personal project.",
-      deploy_link: "https://github.com/Rajan1397/movie_app",
-      repo_link: "https://github.com/Rajan1397/movie_app",
-      tech_stack: [
-        <FaReact />,
-        <FaNodeJs />,
-        <SiMongodb />,
-        <FaJs />,
-        <SiHeroku />,
-        <FaHtml5 />,
-        <FaCss3 />,
-      ],
     },
   ];
 

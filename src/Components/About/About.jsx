@@ -1,5 +1,5 @@
 import React from "react";
-import { FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 import {
   AboutDiv,
@@ -16,19 +16,14 @@ import { Container, H1 } from "../../SharedStyles/SharedStyles";
 const socialMediaLinks = [
   {
     id: 0,
-    link: "https://www.linkedin.com/in/rajan-kumar-368874148/",
+    link: "www.linkedin.com/in/utkarshvaibhav233",
     icon: <FaLinkedin />,
   },
   {
     id: 1,
-    link: "https://github.com/Rajan1397",
+    link: "https://github.com/UtkarshVaibhav",
     icon: <FaGithub />,
-  },
-  {
-    id: 2,
-    link: "https://twitter.com/1397Rajan",
-    icon: <FaTwitter />,
-  },
+  }
 ];
 const About = () => {
   return (
@@ -36,7 +31,7 @@ const About = () => {
       <AboutDiv>
         <Column>
           <Img
-            src="https://media-exp1.licdn.com/dms/image/C4D03AQFwZsbBk6NkNw/profile-displayphoto-shrink_400_400/0/1647141098770?e=1653523200&v=beta&t=Pw-5JjiLZ_E_Kpjrj6pJspZU6xKGkN49pnY25UxQZmU"
+            src="https://avatars.githubusercontent.com/u/41872642?v=4"
             alt="my image"
           />
         </Column>
@@ -44,7 +39,7 @@ const About = () => {
           <H1>About Me</H1>
           <AboutInfo>
             <AboutInfoP>
-              Rajan Kumar, a dedicated Full Stack Web developer based in Delhi,
+              Utkarsh Vaibhav, a dedicated Full Stack Web developer based in Delhi,
               with a specialized skill set that enables me to build robust web
               applications. I am adept in both front-end and back-end and have
               an eye for performance and accuracy.

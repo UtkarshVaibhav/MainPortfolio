@@ -29,14 +29,14 @@ const footerData = [
   {
     id: 0,
     title: "Mobile",
-    display: "+91 9811656387",
-    link: "tel:+919811656387",
+    display: "+91 8757311442",
+    link: "tel:+918757311442",
     icon: <FaPhone style={{ color: "grey" }} className="commonIconsFooter" />,
   },
   {
     id: 1,
     title: "Email",
-    display: "rajnkumar.1397@gmail.com",
+    display: "utkarshvaibhav237@gmail.com",
     link: "mailto:rajnkumar.1397@gmail.com",
     icon: <SiGmail style={{ color: "grey" }} className="commonIconsFooter" />,
   },
@@ -51,24 +51,10 @@ const footerData = [
     id: 3,
     title: "LinkedIn",
     display: "LinkedIn",
-    link: "https://www.linkedin.com/in/rajan-kumar-368874148/",
+    link: "https://github.com/UtkarshVaibhav",
     icon: (
       <FaLinkedin style={{ color: "grey" }} className="commonIconsFooter" />
     ),
-  },
-  {
-    id: 4,
-    title: "Twitter",
-    display: "Twitter",
-    link: "https://twitter.com/1397Rajan",
-    icon: <FaTwitter style={{ color: "grey" }} className="commonIconsFooter" />,
-  },
-  {
-    id: 5,
-    title: "Medium",
-    display: "Medium",
-    link: "https://medium.com/@rajnkumar.1397",
-    icon: <FaMedium style={{ color: "grey" }} className="commonIconsFooter" />,
   },
 ];
 
