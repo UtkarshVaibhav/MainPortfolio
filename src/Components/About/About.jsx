@@ -16,7 +16,7 @@ import { Container, H1 } from "../../SharedStyles/SharedStyles";
 const socialMediaLinks = [
   {
     id: 0,
-    link: "www.linkedin.com/in/utkarshvaibhav233",
+    link: "https://www.linkedin.com/in/utkarshvaibhav233",
     icon: <FaLinkedin />,
   },
   {

@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaLink, FaNodeJs } from "react-icons/fa";
+import { FaGithub, FaLink, } from "react-icons/fa";
 import {
   ProjectDiv,
   Row,
@@ -21,13 +21,24 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      project_name: "Apollo247 Clone",
+      project_name: "Travelix Clone",
       image:
         "https://github.com/UtkarshVaibhav/Travelix-clone/raw/main/images/index.PNG",
       project_desc:
-        "Compare airline flight tickets flying to your favorite destinations around the world. Book the cheapest flight.now and enjoy great airfare deals. Home, Flights, Hotels, Car Rental, Taxi, Tour, Cruises, shop, Blog, Discover The World For Less. Save up to 60% on hotels and flights worldwide. For Offline Best Available Fare Whats App Below Scan. CLICK HERE Popular Destinations Need travel inspiration? Check out our most popular destinations. Chennai. Mumbai. Delhi. Hyderabad. Dubai. Sharjah. Abu Dhabi.",
-      deploy_link: "",
+        "Compare airline flight tickets flying to your favorite destinations around the world. Book the cheapest flight.now and enjoy great airfare deals. Home, Flights, Hotels, Car Rental, Taxi, Tour, Cruises, shop, Blog, Discover The World For Less. Save up to 60% on hotels and flights worldwide. For Offline Best Available Fare Whats App Below Scan. CLICK HERE Popular Destinations Need travel inspiration? Check out our most popular destinations.",
+      deploy_link: "https://amanullah21.github.io/Travelix-Clone/",
       repo_link: "https://github.com/UtkarshVaibhav/Travelix-Clone",
+      tech_stack: [<FaHtml5 />, <FaCss3 />, <FaJs />],
+    },
+    {
+      id: 2,
+      project_name: "Practo Clone",
+      image:
+        "https://user-images.githubusercontent.com/41872642/163110554-25cb1809-2dca-4726-b705-f661502fc9fa.png",
+      project_desc:
+        "This is a static clone of practo website which is a health care based website. The features implemented are resposiveness and authentication using redux, styled components and react. The clone allows patients to see a doctor from a distance. This mobile telepath app works 24/7 by allowing patients to choose doctors and video visits. Doctors can then send the instructions directly to the patient's pharmacy.",
+      deploy_link: "https://practo-clone-unit5.vercel.app/",
+      repo_link: "https://github.com/UtkarshVaibhav/PractoCloneUnit5",
       tech_stack: [<FaHtml5 />, <FaCss3 />, <FaJs />],
     },
   ];
